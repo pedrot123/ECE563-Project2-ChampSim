@@ -8,6 +8,10 @@ LOGS_DIR = Path("logs")
 
 CONFIGS = [
     "configs/baseline_config.json", # Default JSON with 4 cores
+    "configs/increaed_bandwidth_config.json",
+    "configs/increaed_latency_config.json",
+    "configs/reduced_bandwidth_config.json",
+    "configs/reduced_latency_config.json",
 ]
 
 TRACES = [
@@ -18,7 +22,7 @@ TRACES = [
 
 # Simulation parameters
 WARMUP_INSTR = "20000000"
-SIM_INSTR    = "80000000"
+SIM_INSTR    = "60000000"
 
 def run_trace(cmd, out_file):
     with out_file.open("w") as f:
