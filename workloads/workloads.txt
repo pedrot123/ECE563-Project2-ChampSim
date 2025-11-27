@@ -1,0 +1,5 @@
+Cannot commit the large traces files
+Pulled from:
+https://dpc3.compas.cs.stonybrook.edu/champsim-traces/speccpu/602.gcc_s-1850B.champsimtrace.xz
+https://dpc3.compas.cs.stonybrook.edu/champsim-traces/speccpu/605.mcf_s-472B.champsimtrace.xz
+https://dpc3.compas.cs.stonybrook.edu/champsim-traces/speccpu/623.xalancbmk_s-10B.champsimtrace.xz
